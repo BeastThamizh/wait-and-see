@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "grieferlogger",
+  "version": "1.0.0",
+  "name": "Griefer Logger",
+  "description": "Logs chest activity of a specific player with undo support.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.grieferlogger.GrieferLoggerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
